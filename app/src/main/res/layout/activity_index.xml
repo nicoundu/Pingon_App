@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IndexActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/facebookTv"
+        android:text="@string/facebookTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/linkedinTv"
+        android:text="@string/linkedinTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/webpageTv"
+        android:text="@string/webpageTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/equipmentTv"
+        android:text="@string/equipmentTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/contactTv"
+        android:text="@string/contactTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <fragment
+        android:id="@+id/applyFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </fragment>
+
+</LinearLayout>

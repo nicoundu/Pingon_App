@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EquipmentActivity">
+
+    <ImageButton
+        android:id="@+id/towercraneIb"
+        android:layout_marginStart="16dp"
+        android:padding="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageButton
+        android:id="@+id/platformIb"
+        android:layout_toEndOf="@+id/towercraneIb"
+        android:padding="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageButton
+        android:id="@+id/forklifIb"
+        android:layout_marginStart="16dp"
+        android:layout_below="@id/towercraneIb"
+        android:padding="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageButton
+        android:id="@+id/elevatorIb"
+        android:layout_below="@id/towercraneIb"
+        android:layout_toEndOf="@id/forklifIb"
+        android:padding="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>
